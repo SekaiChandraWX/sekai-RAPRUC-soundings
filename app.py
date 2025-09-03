@@ -708,9 +708,9 @@ with col1:
     
     date_input = st.date_input(
         "Date", 
-        value=max_date.date(),
+        value=max_date,  # ✅ Fixed
         min_value=min_date, 
-        max_date=max_date.date(),
+        max_value=max_date,  # ✅ Fixed (also changed max_date to max_value)
         help="RAP/RUC data available from 2005 to ~12 hours ago"
     )
     
