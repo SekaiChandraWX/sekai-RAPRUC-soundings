@@ -764,7 +764,7 @@ with col1:
             st.info(f"📍 {lat:.4f}°, {abs(lon):.4f}°W ({hemisphere} Hemisphere)")
     
     # Processing time warning
-    st.info("⏱️ **Processing Time:** 45-90 seconds (GRIB file download & processing)")
+    st.info("⏱️ **Processing Time:** 15-30 seconds")
     
     generate_button = st.button("🚀 Generate RAP/RUC Sounding Analysis", type="primary")
 
